@@ -32,7 +32,7 @@ class InteractiveRecord
 
   def col_names_for_insert
     binding.pry
-    self.class.column_names.each do |col|
+    self.class.column_names.map do |col|
       if col == "id"
         return nil
       end
