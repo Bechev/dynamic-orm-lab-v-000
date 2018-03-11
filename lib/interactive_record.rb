@@ -36,6 +36,7 @@ class InteractiveRecord
       if col == "id"
         return nil
       end
+    end
   end
 
 end
